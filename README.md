@@ -1,8 +1,9 @@
-# Signal Interference and Wave Analysis
+# 🌊 Signal Interference and Wave Analysis
 
 This project simulates signal interference and visualizes waveforms in both time and distance domains. It computes the properties of two sinusoidal signals, determines their interference type, and plots the resulting waveforms.
 
-## Features
+
+## ⚙️ Features
 
 - **Calculates Wave Properties:**
   - Angular Frequency: (ω = 2πf)
@@ -13,19 +14,26 @@ This project simulates signal interference and visualizes waveforms in both time
   - `D(x,t) = A sin(kx - ωt + φ)`
 
 - **Interference Type:**
-  - Constructive Interference
-  - Destructive Interference
+  - Constructive Interference  
+  - Destructive Interference  
   - Mixed Interference (Partial Constructive + Destructive)
 
 - **Visualizations on Graph:**
-  - Time-domain analysis at a fixed distance
+  - Time-domain analysis at a fixed distance  
   - Distance-domain analysis at a fixed time
 
 - **User Inputs:**
-  - Amplitude, frequency, and phase for two signals
+  - Amplitude, frequency, and phase for two signals  
   - Fixed distance and time values for analysis
 
-## How It Works
+## 🧰 Libraries Used
+
+This project utilizes the following Python libraries:
+- **NumPy**: For numerical calculations and array handling.  
+- **Matplotlib**: For generating the time-domain and distance-domain plots of the signals.
+
+
+## ▶️ How It Works
 
 1. **User Input:**  
    The program takes user input for signal properties:
@@ -47,7 +55,15 @@ This project simulates signal interference and visualizes waveforms in both time
    - **Time Domain:** Plots signal amplitudes over time at a fixed distance.
    - **Distance Domain:** Plots signal amplitudes over distance at a fixed time.
 
-## Libraries Used
-This project utilizes the following Python libraries:
-- **NumPy**: For numerical calculations and array handling.
-- **Matplotlib**: For generating the time-domain and distance-domain plots of the signals.
+## 💡 Future Enhancements
+
+- Implement an interactive GUI using **Tkinter** or **Streamlit** for real-time waveform visualization.  
+- Add **export functionality** to save generated plots as image files.  
+- Include **3D waveform visualizations** to represent interference patterns more dynamically.
+
+## ✨ Author
+
+**Khushi Patel**  
+Software Engineering Student @ Ontario Tech University  
+📫 [Connect on LinkedIn](http://www.linkedin.com/in/khushi-patel-85a994274)  |  🌐 [Portfolio Website](https://khushi-patel-code.github.io/KhushiPatelPortFolio/)
+
